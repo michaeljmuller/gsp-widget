@@ -11,7 +11,7 @@
 }
 
 .gsp-content a {
-    color: #ff0000;
+    color: #990000;
 }
 
 .gsp-footer {
@@ -50,4 +50,35 @@
     margin: 0px 10px;
     overflow: hidden;
 }
+
+.gsp-widget table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    margin-top: 7px;
+    width: 180px;
+}
+
+.gsp-widget table, .gsp-widget td, .gsp-widget tr  {
+    border: 1px solid #990000;
+}
+
+.gsp-widget td {
+    overflow: hidden;
+    width: 15px;
+    padding: 3px;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.gsp-card-header {
+    background: #990000;
+    color: white;
+}
+
+.gsp-card-header td, .gsp-card td.gsp-inout {
+    font-weight: bold;
+}
+
 
