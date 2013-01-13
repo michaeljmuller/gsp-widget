@@ -1,0 +1,53 @@
+.gsp-logo {
+    width: 250px;
+    height: 45px;
+    background-image: url("images/golfshotlogo.png");
+}
+
+.gsp-content {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: #666666;
+}
+
+.gsp-content a {
+    color: #ff0000;
+}
+
+.gsp-footer {
+    width: 250px;
+    height: 18px;
+    background-color: #666;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.gsp-most-recent {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gsp-most-recent-score {
+    font-size: 20pt;
+    padding-bottom: 5px;
+}
+
+.gsp-less-recent {
+    border-top: 1px solid #eeeeee;
+    padding-top: 7px;
+    font-size: 8pt;
+    height: 30px;
+}
+
+.gsp-score {
+    clear: both;
+    float: left;
+    font-size: 18pt;
+    width: 45px;
+    text-align: right;
+    padding: 0px;
+    margin: 0px 10px;
+    overflow: hidden;
+}
+
