@@ -81,4 +81,14 @@
     font-weight: bold;
 }
 
+.gsp-loading {
+    height: 100px;
+    background-image: url("images/gsp-loading.gif");
+    background-repeat:no-repeat;
+    background-position:center; 
+}
 
+.gsp-loading img {
+    margin-left: auto;
+    margin-right: auto;
+}
