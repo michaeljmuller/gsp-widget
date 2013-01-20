@@ -28,7 +28,10 @@ class GSP_Widget extends WP_Widget {
     }
 
     public function widget( $args, $instance ) {
-        $loading_img_url = plugins_url('images/gsp-loading.gif', __FILE__);
+    
+        // this defines the before_widget and after_widget variables
+        extract($args);
+    
         echo $before_widget;
         echo "<div class='gsp-widget'>";
         echo "<div class='gsp-logo'>&nbsp;</div>";

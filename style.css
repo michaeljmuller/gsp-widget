@@ -10,7 +10,7 @@
     color: #666666;
 }
 
-.gsp-content a {
+.widget .gsp-content a {
     color: #990000;
 }
 
@@ -58,6 +58,7 @@
     table-layout: fixed;
     margin-top: 7px;
     width: 180px;
+    word-wrap: normal;
 }
 
 .gsp-widget table, .gsp-widget td, .gsp-widget tr  {
