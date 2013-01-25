@@ -1,3 +1,7 @@
+.gsp-widget {
+    width: 250px;
+}
+
 .gsp-logo {
     width: 250px;
     height: 45px;
@@ -68,6 +72,7 @@
 .gsp-widget td {
     overflow: hidden;
     width: 15px;
+    height: 15px;
     padding: 3px;
     font-size: 10pt;
     text-align: center;
